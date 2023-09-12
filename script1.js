@@ -1,6 +1,6 @@
 let img1 = document.querySelector('.img');
 img1.addEventListener('click',change)
-const audio = new Audio("uagaee.mp3");
+const audio = new Audio("uagae.mp3");
 function change(){
   img1.style.right = ( Math.random() * 90)+ '%'
   img1.style.top = ( Math.random() * 90)+ '%'
