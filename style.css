@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgb(30, 30, 30);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -44,7 +44,7 @@ body{
     height: 100%;
     width: 100%;
     border: solid green 2px;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
 }
 .btn:hover{
@@ -60,7 +60,7 @@ body{
     top: 0%;
     height: 10%;
     width: 100%;
-    font-size: 50px;
+    font-size: 200%;
     text-align: center;
     color: rgb(30, 30, 30);
     z-index: 1;
@@ -114,3 +114,39 @@ body{
     text-align: center;
     font-size: 180%;
 }
+@media all and (max-width : 650px) {
+    .yesbtn .btn{
+        font-size: 100%;
+    }
+    .yesbtn{
+        width: 25%;
+        height: 10%;
+        left: 7%;
+    }
+    .nobtn{
+        width: 25%;
+        height: 10%;
+        right: 7%;
+    }
+    .mainvid{
+        top: 20%;
+        min-width: 100%;
+        height: 40%;
+        transition: 0.5s;
+        left: 0%;
+    }
+    .img{
+        position: absolute;
+        width: 40%;
+        height: 25%;
+        top: 80%;
+        transition: 0.5s;
+    }
+    .img2{
+        width: 40%;
+        height: 25%;
+        top: 80%;
+        transition: 0.5s;
+    }
+}    
+
